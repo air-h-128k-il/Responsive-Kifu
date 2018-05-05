@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+div#container-a{
+  background-image: url(../img/backgroud.gif);
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  
+  boarder: 2px ridge #00000;
+}
+
+div#top {
+  background: #00ffff;
+  width: 600px;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+img#top {
+max-width: 100%;
+}
+
+table#top{
+width:100%;
+max-width: 600px;
+heitht: auto;
+}
+
+div#top div.table p.date {
+width:70.8%;
+max-width: 425px;
+height:auto;
+margin-top:0px;
+margin-left:0px;
+	font-size:13px;
+text-align:left;
+}
+
+/*
+div#top div.table p.date span {
+font-weight:bold;
+}
+*/
+
+
+div#board {
+  background: #fff;
+  
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  
+  position:relative;
+  top: 10px;
+  left: 10px;
+}
+
+img#board {
+width:100%;
+max-width: 600px;
+height:auto;
+}
+
+
+div#bottom {
+  background: #ffff00;
+  
+  width: 600px;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+img#bottom {
+max-width: 100%;
+height:auto
+}
+
+
+div#bottom div.move_arrow {
+//	padding-top:6px;
+	position: absolute;
+	left: 26%;
+	top: 8px;
+	width:55%;
+	max-width:330px;
+	height:6%;
+	max-height:42px;
+	margin:0 auto;
+	text-align:center;
+}
+div#bottom div.move_arrow p {
+	float:left;
+	height:6%;
+	max-height:42px;
+}
+div#bottom p.item02 {
+	max-width:28px;width:9.5%;heght:auto;margin-right:1.3%;}
+div#bottom p.item03 {
+	max-width:36px;width:12.2%;margin-right:1.3%;}
+div#bottom p.item04 {
+	max-width:36px;width:12.2%;margin-right:1.3%;}
+div#bottom p.item05 {
+	max-width:47px;width:15.9%;height:auto;margin-right:1.3%;}
+div#bottom p.item06 {
+	max-width:36px;width:12.2%;margin-right:1.3%;}
+div#bottom p.item07 {
+	max-width:34px;width:11.5%;margin-right:1.3%;}
+div#bottom p.item08 {
+	max-width:29px;width:9.8%;margin-right:1.3%;}
+//div#bottom p.item10 {
+	max-width:50px;width:17%}
+
+div#bottom div#search {
+//	padding-top:6px;
+	position: absolute;
+	left: 480px;
+	top: 8px;
+	width:50px;
+	height:50px;
+	margin:0 auto;
+	text-align:center;
+}
+	
+div#bottom p.move {
+	position: absolute;
+	left: 20px;
+	top: 60px;
+	height: 26px;
+//	text-align:center;
+	font-size:12px;
+//	font-weight:bold;
+//	padding-top:15px;
+}
+
+div#bottom textarea#comment{
+	position:absolute;
+	left:0px; top:97px;
+	overflow-y: scroll;
+	width: 100%; height: 85px;
+	font-size:12px;
+}
+
+
+img{
+max-width: 100%;
+height:auto;
+}
+
+

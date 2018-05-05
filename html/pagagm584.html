@@ -1,0 +1,56 @@
+<html>
+<head>
+<link rel="stylesheet" href="../css/test2.css" type="text/css">
+<script type="text/javascript" src ="../js/http.js"></script>
+<script type="text/javascript" src ="../js/score10.js"></script>
+<script type="text/javascript" src ="../js/shogi13.js"></script>
+<meta charset="utf-8"/>
+</head>
+<body onload="sgInit();Start('../data/pagagm584.kif','s'); nsSetSound('../sound/sound1.mp3');" onresize="sgResize();">
+<div id = "container-a">
+  <div id = "top">
+    <img src="../img/toppanel.png" width="600" height="75" alt="">
+    <div class="table" style="position:absolute; margin; left:2%; top:12%;">
+	<table cellspacing="0" cellpadding="0" height="75" width="600"><tbody><tr><td style="vertical-align:middle">
+			<p class="date"><span id="scyear"></span><span id="scmonth"></span><span id="scday"></span>
+			<span id="sctitle"></span><span id="scstage"></span><br>
+			<span id="scstage2"></span></p>
+			</td></tr></tbody>
+	</table>
+      </div>
+  </div>
+  <div id = "board">
+    <img src="../img/board.jpg" width="600" height="400" alt="">
+    <div style=" text-align:center; font-weight: bold; color:#f00;">
+	<span id="scnotify" style="color:#f00;"></span><br><span id="scnotify2" style="color:#f00;"></span>
+     </div>
+     <span id="p1type" style="position: absolute; left:80%; top:55%;"></span>
+     <span id="p1name" style="position: absolute; left:80%; top:55%;font-size:13px;"></span>
+     <span id="p1title" style="position: absolute; left:80.5%; top:60%;"></span>
+     <span id="p1title2" style="position: absolute; left:80.5%; top:65%;"></span>
+     <span id="p2type" style="position: absolute; left:15px; top:30%;"></span>
+     <span id="p2name" style="position: absolute; left:12px; top:35%;font-size:13px;"></span>
+     <span id="p2title" style="position: absolute; left:15px; top:139px;"></span>
+     <span id="p2title2" style="position: absolute; left:15px; top:166px;"></span>
+  </div>
+  <div id = "bottom">
+     <img src="../img/bottompanel.png" width="600" height="105" alt="">
+      <div id="sound_select" style="position:absolute; left:3.3%; top:10%;">
+       <input type="checkbox" onchange="nsSoundToggle(this)">&nbsp;駒音再生
+      </div><!-- end of sound_select -->
+    <div class="move_arrow">
+	 <p class="item02"><img src="../img/move_item02.png"  onclick="nsHead(sgDraw);"></p>
+	 <p class="item03"><img src="../img/move_item03.png"  onclick="nsBack(sgDraw, 10);"></p>
+	 <p class="item04"><img src="../img/move_item04.png"  onclick="nsBack(sgDraw, 1);"></p>
+	 <p class="item05"><img src="../img/move_item05.png"  alt="自動再生" onclick="nsPlay(sgDraw);" id="playbutton"></p>
+	 <p class="item06"><img src="../img/move_item06.png"  onclick="nsStep(sgDraw, 1);"></p>
+	 <p class="item07"><img src="../img/move_item07.png"  onclick="nsStep(sgDraw, 10);"></p>
+	 <p class="item08"><img src="../img/move_item08.png"  onclick="nsTail(sgDraw);"></p>
+	</div>
+        <!--<div id="search"><img src="../JSKifuForWP2/img/move_item10.png"  onclick="nsSearch();"></div>-->
+        <p class="move" id="move"></p>
+        <textarea id="comment"></textarea>
+  </div> 
+</div>
+</body>
+</html>
