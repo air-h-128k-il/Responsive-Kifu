@@ -6,7 +6,7 @@
 あれこれ物色していたところ、[NHK杯の棋譜再生サイト](http://cgi2.nhk.or.jp/goshogi/kifu/sgs.cgi)の JavaScript がシンプルながら出来がよく、これを改変することにしました。  
 
 ### 特徴
-元の JavaScript が 100% ピュア javascript であったため、Responsive-Kifu もその特徴を受け継いでいます。  
+元の JavaScript が 100% ピュア javascript であったため、Responsive-Kifu もその特徴を受け継いでいます。  
 機能は乏しいですが、その代わり改変が比較的容易だと思います。
 
 再生できる形式が nkif 形式（NHKサイトで利用されているフォーマット。勝手に命名）のみであったため、kif 形式が読み込めるように改変しました。
@@ -16,8 +16,8 @@
 
 ### 参照
 紹介記事は[ブログ](http://phazor.org/air/?p=907)に書いてあります。  
-実際の使用例は、   
-                    [アゲアゲさんの名局をブログで再現してみる](https://phazor.info/air/?p=976)
+実際の使用例は、   
+　　　『[アゲアゲさんの名局をブログで再現してみる](https://phazor.info/air/?p=976)』  
 などをご覧ください。
 
  Enjoy your shogi life!
