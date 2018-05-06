@@ -1,4 +1,4 @@
-## Responsive-Kifu
+## 100%ピュア JavaScript 将棋棋譜再生ビューア　Responsive-Kifu
 ### 経緯 
 ブログ上で将棋の棋譜を再生したいと思い、適当なソフトを探していました。  
 [Kifu for Flash](http://kakinoki.o.oo7.jp/kifuf.html)が有名ですが、Flash を用いているため iPhone や Android では表示すらされず、導入見送り。  
