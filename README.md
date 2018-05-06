@@ -15,9 +15,9 @@
 より最適化を目指す場合は css ファイルで調整してください。
 
 ### 参照
-紹介記事は[ブログ](http://phazor.org/air/?p=907)に書いてあります。  
+紹介記事は[ブログ](http://phazor.org/air/?p=907)に書いてあります。  
 実際の使用例は、  
-+『[アゲアゲさんの名局をブログで再現してみる](https://phazor.info/air/?p=976)』    
+*『[アゲアゲさんの名局をブログで再現してみる](https://phazor.info/air/?p=976)』  
 などをご覧ください。
 
  Enjoy your shogi life!
