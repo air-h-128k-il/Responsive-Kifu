@@ -3,7 +3,7 @@
 ブログ上で将棋の棋譜を再生したいと思い、適当なソフトを探していました。  
 [Kifu for Flash](http://kakinoki.o.oo7.jp/kifuf.html)が有名ですが、Flash を用いているため iPhone や Android では表示すらされず、導入見送り。  
 [JS For Kifu](https://github.com/na2hiro/Kifu-for-JS) も試してみましたが、ライブラリ依存の部分が理解できず、レイアウトの調整がうまくいきませんでした。  
-あれこれ物色していたところ、[NHK杯の棋譜再生サイト](http://cgi2.nhk.or.jp/goshogi/kifu/sgs.cgi)の JavaScript がシンプルながら出来がよく、これを改変することにしました。  
+あれこれ物色していたところ、[NHK杯の棋譜再生サイト](http://cgi2.nhk.or.jp/goshogi/kifu/sgs.cgi)の JavaScript がシンプルながら出来がよく、これを改変することにしました。（なお、念のため NHK にもメールにて確認をとりましたが、特に問題はないようです） 
 
 ### 特徴
 * 元の JavaScript が 100% ピュア javascript であったため、Responsive-Kifu もその特徴を受け継いでいます。  
